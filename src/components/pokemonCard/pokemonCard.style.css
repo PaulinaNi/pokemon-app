@@ -1,0 +1,30 @@
+.pokemonCard{
+ background-color: #bbb8b88a;
+ width: 80vw;
+ border-radius: 0.5rem;
+ padding: 1rem 0;
+}
+.pokemonCard span{
+ display: block;
+}
+
+.pokemonCard img{
+ width: 70vw;
+}
+
+@media (min-width: 48rem) {
+ .pokemonCard{
+  width: 25vw;
+ }
+ .pokemonCard img{
+  width: 20vw;
+ }
+}
+@media (min-width: 75rem) {
+ .pokemonCard{
+  width: 22vw;
+ }
+ .pokemonCard img{
+  width: 17vw;
+ }
+}

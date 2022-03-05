@@ -1,0 +1,45 @@
+.detailedPokemonCard{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 1rem;
+ background-color: #bbb8b88a;
+ width: 90vw;
+ padding: 1rem 1rem;
+ border-radius: 1rem;
+}
+.detailedPokemonCard img{
+ width: 80vw;
+}
+.detailedPokemonCardStats{
+ /* border: black solid 0.25rem; */
+ line-height: 2rem;
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ grid-template-rows: repeat(9, 1fr);
+}
+
+.statName{
+ color:#fff;
+}
+.statValue{
+ color: rgb(129, 202, 126);
+}
+
+@media (min-width: 48rem) {
+ .detailedPokemonCard{
+  width: 60vw;
+ }
+ .detailedPokemonCard img{
+  width: 40vw;
+ }
+}
+
+@media (min-width: 75rem) {
+ .detailedPokemonCard{
+  width: 40vw;
+ }
+ .detailedPokemonCard img{
+  width: 20vw;
+ }
+}
