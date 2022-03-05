@@ -4,7 +4,7 @@ On this site you can check all Pokémon from the first generation or search for 
 
 Life website 
 
-# Tech stack & Open-source libraries 
+# Tech stack
 
 - HTML
 - CSS
