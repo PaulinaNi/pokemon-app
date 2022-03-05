@@ -10,7 +10,7 @@ export default function SinglePokemonSearch(props) {
 
   return (
     <form className="formComponent" onSubmit={handleSubmit}>
-      <label htmlFor="serchingValue">Please input name or pokedex number</label>
+      <label htmlFor="serchingValue">Please input Pokémon name or pokedex number (1-151)</label>
       <input
         id="serchingValue"
         value={value}
@@ -18,7 +18,7 @@ export default function SinglePokemonSearch(props) {
         placeholder = "name or pokedex number"
       />
       <Button
-        buttonText="Find Pokemon"
+        buttonText="Find Pokémon"
         onClick={findPokemon}
       />
     </form>

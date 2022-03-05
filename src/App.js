@@ -13,7 +13,7 @@ function App() {
     const baseURL = "https://pokeapi.co/api/v2/pokemon/"
     const firstGenPokemon = []
 
-    for (let i = 1; i < 151; i++) {
+    for (let i = 1; i < 152; i++) {
       await fetch(`${baseURL}${i}`)
         .then(res => res.json())
         .then(data => {
@@ -66,9 +66,9 @@ function App() {
       {!isMethodForSearchChoosen &&
         <div className="appInfo">
           <h1>Welcome!</h1>
-          <p>You can check all pokemon from First Generation or search pokemon by inputing name or pokedex number</p>
+          <p>You can check all Pokémon from First Generation or search Pokémon by inputing name or pokedex number</p>
           <Button
-            buttonText="Single Pokemon"
+            buttonText="Single Pokémon"
             onClick={()=> handleButtonClick("singlePokemon")}
           />
           <Button
